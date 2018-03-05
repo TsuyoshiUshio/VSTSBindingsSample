@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27323.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTSBindingsSample", "VSTSBindingsSample\VSTSBindingsSample.csproj", "{B016CC9E-6321-498E-A663-74D5AEA44D6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSTSBindingsSample", "VSTSBindingsSample\VSTSBindingsSample.csproj", "{B016CC9E-6321-498E-A663-74D5AEA44D6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTSBindings", "VSTSBindings\VSTSBindings.csproj", "{1A443A65-2839-47D6-8CF0-306BCCD560BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSTSBindings", "VSTSBindings\VSTSBindings.csproj", "{1A443A65-2839-47D6-8CF0-306BCCD560BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTSQueueBuildSpike", "VSTSQueueBuildSpike\VSTSQueueBuildSpike.csproj", "{BACB2CCC-0967-4C89-B5D1-43ABA39A0E80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSTSQueueBuildSpike", "VSTSQueueBuildSpike\VSTSQueueBuildSpike.csproj", "{BACB2CCC-0967-4C89-B5D1-43ABA39A0E80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
