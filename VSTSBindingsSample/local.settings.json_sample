@@ -1,0 +1,8 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "VSTS:Pat": "YOUR_PERSONAL_ACCESS_TOKEN_HERE"
+  }
+}
