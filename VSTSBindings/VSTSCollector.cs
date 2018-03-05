@@ -25,9 +25,12 @@ namespace VSTSBindings
         }
         public async Task AddAsync(VSTSContext item, CancellationToken cancellationToken = default(CancellationToken))
         {
-            ConfigureClient();
-            int definitionId = await GetDefinitionIdAsync(item);
-            await QueueBuild(definitionId);
+            if (item.QueueBuild)
+            {
+                ConfigureClient();
+                int definitionId = await GetDefinitionIdAsync(item);
+                await QueueBuild(definitionId);
+            }
         }
 
         private void ConfigureClient()
